@@ -13,6 +13,8 @@
 		7A103DA71B5D39F4000FEFA6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A103DA61B5D39F4000FEFA6 /* Images.xcassets */; };
 		7A103DAA1B5D39F4000FEFA6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A103DA81B5D39F4000FEFA6 /* LaunchScreen.xib */; };
 		7A103DB61B5D39F4000FEFA6 /* AtomSpinnerViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A103DB51B5D39F4000FEFA6 /* AtomSpinnerViewTests.swift */; };
+		7A103DC61B5D3B0B000FEFA6 /* QCMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A103DC41B5D3B0B000FEFA6 /* QCMethod.swift */; };
+		7A103DC71B5D3B0B000FEFA6 /* AtomSpinnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A103DC51B5D3B0B000FEFA6 /* AtomSpinnerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		7A103DAF1B5D39F4000FEFA6 /* AtomSpinnerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AtomSpinnerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A103DB41B5D39F4000FEFA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A103DB51B5D39F4000FEFA6 /* AtomSpinnerViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtomSpinnerViewTests.swift; sourceTree = "<group>"; };
+		7A103DC41B5D3B0B000FEFA6 /* QCMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QCMethod.swift; sourceTree = "<group>"; };
+		7A103DC51B5D3B0B000FEFA6 /* AtomSpinnerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AtomSpinnerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 		7A103D9C1B5D39F4000FEFA6 /* AtomSpinnerView */ = {
 			isa = PBXGroup;
 			children = (
+				7A103DBF1B5D39FB000FEFA6 /* src */,
 				7A103D9F1B5D39F4000FEFA6 /* AppDelegate.swift */,
 				7A103DA11B5D39F4000FEFA6 /* ViewController.swift */,
 				7A103DA31B5D39F4000FEFA6 /* Main.storyboard */,
@@ -110,6 +115,15 @@
 				7A103DB41B5D39F4000FEFA6 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7A103DBF1B5D39FB000FEFA6 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				7A103DC41B5D3B0B000FEFA6 /* QCMethod.swift */,
+				7A103DC51B5D3B0B000FEFA6 /* AtomSpinnerView.swift */,
+			);
+			name = src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,6 +228,8 @@
 			files = (
 				7A103DA21B5D39F4000FEFA6 /* ViewController.swift in Sources */,
 				7A103DA01B5D39F4000FEFA6 /* AppDelegate.swift in Sources */,
+				7A103DC61B5D3B0B000FEFA6 /* QCMethod.swift in Sources */,
+				7A103DC71B5D3B0B000FEFA6 /* AtomSpinnerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
