@@ -3,7 +3,7 @@
 
 AtomSpinnerView is Atom like animation built with Quartzcode and implemented Swift methods to create your own loading indicator.
 
-![Demo](http://cl.ly/image/1E1Q0Y431x1P)
+![Demo](http://f.cl.ly/items/2K3J3J1a181D1h3X301C/Screen%20Recording%202015-07-20%20at%2006.32%20pm.gif)
 
 #### Installation
 Just drop project folder on your application's root.
